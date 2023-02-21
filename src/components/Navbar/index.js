@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <section>
-      <h1 class="text-center" id="navbar">Navigation Bar</h1>
+      <h1 className="text-center" id="navbar">Navigation Bar</h1>
     </section>
   );
 }
