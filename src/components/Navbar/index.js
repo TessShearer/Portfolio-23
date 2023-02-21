@@ -9,14 +9,16 @@ function Navbar() {
   function makeStick() {
     if (window.pageYOffset > sticky) {
       navbar.classList.add("sticky");
+      navbar.classList.remove("notsticky");
     } else {
+      navbar.classList.add("notsticky");
       navbar.classList.remove("sticky");
     }
   }
 
   return (
     <section>
-      <h1 className="text-center" id="navbar">Navigation Bar</h1>
+      <h1 className="text-center notsticky" id="navbar">Navigation Bar</h1>
     </section>
   );
 }
