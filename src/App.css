@@ -4,7 +4,7 @@
   font-size: 175px;
   text-align: left;
   font-family:'Quicksand', monospace;
-  height: 700px;
+  min-height: 700px;
   margin: 20px;
   padding: 25px;
 }
@@ -36,10 +36,23 @@
 
 .notsticky {
   margin-top: 150px;
+  /* display: none; */
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+/* About */
+
+#aboutme {
+  align-items: center;
+  font-size: 75px;
+  text-align: center;
+  font-family:'Quicksand', monospace;
+  min-height: 400px;
+  margin: 20px;
+  padding: 50px;
 }
