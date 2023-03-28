@@ -3,10 +3,10 @@
   align-items: center;
   font-size: 175px;
   text-align: left;
-  font-family:'Quicksand', monospace;
   min-height: 700px;
   margin: 20px;
   padding: 25px;
+
 }
 
 #scroll {
@@ -54,4 +54,60 @@
   min-height: 300px;
   margin: 50px;
   padding: 50px;
+}
+
+/* Portfolio */
+
+.port-app {
+  padding: 50px;
+}
+
+.app-link {
+  height: 300px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border: 4px solid #555;
+  border-radius: 4px;
+}
+
+.app-title {
+  color: white;
+  background-color: #555;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+#wordle {
+  background-image: url('./assets/wordle.png');
+}
+
+#movies {
+  background-image: url('./assets/movies.png');
+}
+
+#party {
+  background-image: url('./assets/afterparty.png');
+}
+
+#karate {
+  background-image: url('./assets/karate.png');
+}
+
+#portfolio {
+  font-size: 75px;
+}
+
+/* Everything */
+.spacing {
+  padding: 25px;
+}
+
+* {
+  font-family:'Quicksand', monospace;
 }
