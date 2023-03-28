@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Navbar() {
+
+  document.addEventListener('DOMContentLoaded', function() {
   window.onscroll = function () { makeStick() };
 
   var navbar = document.getElementById("navbar");
@@ -15,6 +17,7 @@ function Navbar() {
       navbar.classList.remove("sticky");
     }
   }
+});
 
   return (
     <section>
