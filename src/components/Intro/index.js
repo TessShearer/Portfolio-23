@@ -1,5 +1,5 @@
 import React from 'react';
-import downarrow from '../../assets/arrowdown.png'
+import downarrow from '../../assets/arrowdown.png';
 
 function Intro() {
 
