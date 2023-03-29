@@ -12,19 +12,29 @@
 #scroll {
   text-align: center;
   font-size: larger;
-  -webkit-animation: action 1s infinite  alternate;
-  animation: action 1s infinite  alternate;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
   padding: 20px;
 }
 
 @-webkit-keyframes action {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes action {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 /* Navbar */
@@ -164,5 +174,18 @@
 }
 
 * {
-  font-family:'Quicksand', monospace;
+  font-family: 'Quicksand', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#icons {
+  float: right;
+  padding: 15px;
 }

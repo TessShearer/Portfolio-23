@@ -1,14 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function Navbar() {
+function Navbar(props) {
 
-  document.addEventListener('DOMContentLoaded', function () {
-    window.onscroll = function () { makeStick() };
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
+  useEffect(() => {
     function makeStick() {
+      const navbar = document.getElementById("navbar");
+      const sticky = navbar.offsetTop;
       if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky");
         navbar.classList.remove("notsticky");
@@ -17,16 +14,22 @@ function Navbar() {
         navbar.classList.remove("sticky");
       }
     }
-  });
+
+    window.addEventListener('scroll', makeStick);
+
+    return () => {
+      window.removeEventListener('scroll', makeStick);
+    };
+  }, []);
 
   return (
     <section>
-      {/* <h1 className="text-center notsticky" id="navbar">Navigation Bar</h1> */}
       <div className="text-center notsticky" id="navbar">
         <div className="d-flex justify-content-around">
-          <a href="">Link</a>
-          <a href="">Link</a>
-          <a href="">Link</a>
+          <a href="#About">About</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#Contact">Contact</a>
         </div>
       </div>
     </section>

@@ -1,13 +1,15 @@
 import React from 'react';
 
 function Contact() {
-    
+
     function contactSubmit() {
         console.log("submit");
     };
 
     return (
         <section>
+
+            <div className="spacing"></div>
             <h1 className="text-center" id="contact">Contact Me</h1>
 
             <div className="row text-center contact-links">

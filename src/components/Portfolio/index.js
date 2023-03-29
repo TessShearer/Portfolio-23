@@ -4,6 +4,8 @@ function Portfolio() {
 
   return (
     <section>
+
+      <div className="spacing"></div>
       <h1 className="text-center" id="portfolio">Portfolio</h1>
 
       <div className="row text-center">
@@ -56,8 +58,6 @@ function Portfolio() {
         </div>
         <div className="col-1"></div>
       </div>
-
-      <div className="spacing"></div>
     </section>
   );
 }

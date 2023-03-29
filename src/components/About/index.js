@@ -4,6 +4,8 @@ function About() {
 
   return (
     <section>
+      <div className="spacing"></div>
+
       <div>
         <div className="row">
           <div className="col-2"></div>
@@ -14,9 +16,6 @@ function About() {
         </div>
         <div id="self"></div>
       </div>
-
-      <div className="spacing"></div>
-
     </section>
   );
 }
