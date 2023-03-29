@@ -11,7 +11,7 @@ function Intro() {
                     <h1 id="introduction">Welcome! <br></br>I'm Tess <br></br>Shearer</h1>
                     <div id="scroll">
                     <p>Continue Scrolling</p>
-                    <img src={downarrow}/>
+                    <img src={downarrow} alt="arrow pointing down"/>
                     </div>
                 </div>
                 <div className="col-1"></div>

@@ -1,12 +1,10 @@
 import React from 'react';
 
 function Contact() {
-
-    // document.getElementById("submit").addEventListener("click", submitContact());
-
-    // function submitContact() {
-    //     console.log("submit");
-    // };
+    
+    function contactSubmit() {
+        console.log("submit");
+    };
 
     return (
         <section>
@@ -14,9 +12,15 @@ function Contact() {
 
             <div className="row text-center contact-links">
                 <div className="col"></div>
-                <div className="col-3">Hello</div>
-                <div className="col-3">Hello</div>
-                <div className="col-3">Hello</div>
+                <div className="col-3">
+                    801-310-9809
+                </div>
+                <div className="col-3">
+                    shearer.tess@gmail.com
+                </div>
+                <div className="col-3">
+                    <a href="https://www.linkedin.com/in/tess-shearer-a343b2232/" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
                 <div className="col"></div>
             </div>
 
@@ -37,7 +41,7 @@ function Contact() {
                         <label htmlFor="message">Message</label>
                     </div>
                     <div id="button-container">
-                        <button type="submit" id="submit">Submit</button>
+                        <button onClick={contactSubmit} type="submit" id="submit">Submit</button>
                     </div>
                 </div>
                 <div className="col-2"></div>

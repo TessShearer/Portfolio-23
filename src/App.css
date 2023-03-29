@@ -34,6 +34,12 @@
   color: #f1f1f1;
 }
 
+#navbar div a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
 .notsticky {
   margin-top: 120px;
 }
@@ -92,6 +98,11 @@
   padding: 10px 0;
 }
 
+.app-des {
+  margin: auto;
+  font-size: 25px;
+}
+
 #wordle {
   background-image: url('./assets/wordle.png');
 }
@@ -129,6 +140,7 @@
 
 .contact-links {
   padding: 25px;
+  font-size: 25px;
 }
 
 #button-container {

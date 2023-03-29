@@ -14,10 +14,10 @@ function App() {
         <Intro></Intro>
         <Navbar></Navbar>
         <About></About>
-        <Portfolio></Portfolio>
         <Skills></Skills>
+        <Portfolio></Portfolio>
         <Contact></Contact>
-        <a target="_blank" href="https://icons8.com/icon/bGjmkh3zMHa0/chevron-down">Chevron Down</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/bGjmkh3zMHa0/chevron-down" rel="noreferrer">Chevron Down</a> icon by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a>
       </main>
     </div>
   );

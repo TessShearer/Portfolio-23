@@ -2,26 +2,33 @@ import React from 'react';
 
 function Navbar() {
 
-  document.addEventListener('DOMContentLoaded', function() {
-  window.onscroll = function () { makeStick() };
+  document.addEventListener('DOMContentLoaded', function () {
+    window.onscroll = function () { makeStick() };
 
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
 
-  function makeStick() {
-    if (window.pageYOffset > sticky) {
-      navbar.classList.add("sticky");
-      navbar.classList.remove("notsticky");
-    } else {
-      navbar.classList.add("notsticky");
-      navbar.classList.remove("sticky");
+    function makeStick() {
+      if (window.pageYOffset > sticky) {
+        navbar.classList.add("sticky");
+        navbar.classList.remove("notsticky");
+      } else {
+        navbar.classList.add("notsticky");
+        navbar.classList.remove("sticky");
+      }
     }
-  }
-});
+  });
 
   return (
     <section>
-      <h1 className="text-center notsticky" id="navbar">Navigation Bar</h1>
+      {/* <h1 className="text-center notsticky" id="navbar">Navigation Bar</h1> */}
+      <div className="text-center notsticky" id="navbar">
+        <div className="d-flex justify-content-around">
+          <a href="">Link</a>
+          <a href="">Link</a>
+          <a href="">Link</a>
+        </div>
+      </div>
     </section>
   );
 }
