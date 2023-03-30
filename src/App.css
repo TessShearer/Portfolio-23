@@ -189,3 +189,48 @@ body {
   float: right;
   padding: 15px;
 }
+
+@media only screen and (max-width: 1350px) {
+.app-link {
+  height: 250px;
+  width: 400px;
+}
+
+.app-title {
+  width: 400px;
+}
+
+.app-des {
+  width: 400px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .app-link {
+    height: 200px;
+    width: 300px;
+  }
+  
+  .app-title {
+    width: 300px;
+  }
+  
+  .app-des {
+    width: 300px;
+  }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .app-link {
+      height: 125px;
+      width: 200px;
+    }
+    
+    .app-title {
+      width: 200px;
+    }
+    
+    .app-des {
+      width: 200px;
+    }
+    }
