@@ -6,6 +6,14 @@ function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log("submit clicked");
+
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('address').value;
+        var message = document.getElementById('message').value;
+
+        console.log(name);
+        console.log(email);
+        console.log(message);
       
         // axios.post('/contact', {
         //   name: name,
