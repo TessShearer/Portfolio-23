@@ -12,19 +12,29 @@
 #scroll {
   text-align: center;
   font-size: larger;
-  -webkit-animation: action 1s infinite  alternate;
-  animation: action 1s infinite  alternate;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
   padding: 20px;
 }
 
 @-webkit-keyframes action {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes action {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 /* Navbar */
@@ -32,6 +42,12 @@
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
+}
+
+#navbar div a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .notsticky {
@@ -92,6 +108,11 @@
   padding: 10px 0;
 }
 
+.app-des {
+  margin: auto;
+  font-size: 25px;
+}
+
 #wordle {
   background-image: url('./assets/wordle.png');
 }
@@ -127,11 +148,89 @@
   font-size: 75px;
 }
 
+.contact-links {
+  padding: 25px;
+  font-size: 25px;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+#message {
+  height: 200px;
+}
+
 /* Everything */
 .spacing {
   padding: 50px;
 }
 
 * {
-  font-family:'Quicksand', monospace;
+  font-family: 'Quicksand', monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#icons {
+  float: right;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 1350px) {
+.app-link {
+  height: 250px;
+  width: 400px;
+}
+
+.app-title {
+  width: 400px;
+}
+
+.app-des {
+  width: 400px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .app-link {
+    height: 200px;
+    width: 300px;
+  }
+  
+  .app-title {
+    width: 300px;
+  }
+  
+  .app-des {
+    width: 300px;
+  }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .app-link {
+      height: 125px;
+      width: 200px;
+    }
+    
+    .app-title {
+      width: 200px;
+    }
+    
+    .app-des {
+      width: 200px;
+    }
+    }
