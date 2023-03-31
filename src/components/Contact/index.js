@@ -1,10 +1,24 @@
 import React from 'react';
+import axios from 'axios';
 
 function Contact() {
 
-    // function contactSubmit() {
-    //     console.log("submit");
-    // };
+    const handleSubmit = (event) => {
+        event.preventDefault();
+      
+        axios.post('/contact', {
+          name: name,
+          email: email,
+          message: message
+        })
+        .then(response => {
+          console.log(response.data);
+          setSent(true);
+        })
+        .catch(error => {
+          console.log(error);
+        });
+      }
 
     return (
         <section>
@@ -26,7 +40,7 @@ function Contact() {
                 <div className="col"></div>
             </div>
 
-            <form className="row text-center" id="contact-form">
+            <form className="row text-center" id="contact-form" onSubmit={handleSubmit}>
                 <div className="col-2"></div>
                 <div className="col-8">
                     <h1>Or Message Me Directly Here:</h1>
