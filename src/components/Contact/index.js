@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 
 function Contact() {
 
@@ -41,7 +41,7 @@ function Contact() {
                 <div className="col"></div>
             </div>
 
-            <form className="row text-center" id="contact-form" onSubmit={handleSubmit}>
+            {/* <form className="row text-center" id="contact-form" onSubmit={handleSubmit}>
                 <div className="col-2"></div>
                 <div className="col-8">
                     <h1>Or Message Me Directly Here:</h1>
@@ -62,7 +62,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="col-2"></div>
-            </form>
+            </form> */}
         </section>
     );
 }
