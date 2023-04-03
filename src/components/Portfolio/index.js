@@ -34,7 +34,7 @@ function Portfolio() {
           <a className="d-block app-des" href="https://github.com/TessShearer/what-to-watch" target="_blank" rel="noreferrer">Access GitHub Here</a>
         </div>
         <div className="col-5 port-app">
-          <h3 className="d-block app-title">Wordle Filter</h3>
+          <h3 className="d-block app-title">UVU T.I.M.S.</h3>
           <a className="d-block app-link" href="https://tims.uvu.edu/tims/prod/myleave.php" target="_blank" rel="noreferrer" id="tims"> </a>
           <p className="d-block app-des">Updated the UVU time information management system so that employees had a more usuable interface on mobile devices.</p>
           {/* <a className="d-block app-des" href="https://github.com/TessShearer/5letters" target="_blank" rel="noreferrer">Access GitHub Here</a> */}

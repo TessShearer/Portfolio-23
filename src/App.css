@@ -98,6 +98,10 @@
   border-radius: 4px;
 }
 
+.app-link:hover {
+  opacity: .5;
+}
+
 .app-title {
   color: white;
   background-color: #555;
