@@ -129,6 +129,14 @@
   background-image: url('./assets/karate.png');
 }
 
+#art {
+  background-image: url('./assets/art.png');
+}
+
+#tims {
+  background-image: url('./assets/timsmobile.jpg');
+}
+
 #portfolio {
   font-size: 75px;
 }
