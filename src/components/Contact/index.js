@@ -3,9 +3,9 @@ import React from 'react';
 
 function Contact() {
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log("submit clicked");
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //     console.log("submit clicked");
       
         // axios.post('/contact', {
         //   name: name,
@@ -19,7 +19,7 @@ function Contact() {
         // .catch(error => {
         //   console.log(error);
         // });
-      }
+    //   }
 
     return (
         <section>
