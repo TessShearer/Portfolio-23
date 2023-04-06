@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-23/static/css/main.578af90b.css",
-    "main.js": "/portfolio-23/static/js/main.cf3c36f8.js",
-    "static/js/787.d26f836c.chunk.js": "/portfolio-23/static/js/787.d26f836c.chunk.js",
-    "static/media/afterparty.png": "/portfolio-23/static/media/afterparty.91195ec8e2c66296aad3.png",
-    "static/media/karate.png": "/portfolio-23/static/media/karate.c7dfa2b30c1d83c3ceec.png",
-    "static/media/wordle.png": "/portfolio-23/static/media/wordle.148e0a516d39d11ba602.png",
-    "static/media/movies.png": "/portfolio-23/static/media/movies.7ca53c6b395966b052ae.png",
-    "static/media/self-trim.png": "/portfolio-23/static/media/self-trim.c91db4bf74e5e34b39bf.png",
-    "static/media/timsmobile.jpg": "/portfolio-23/static/media/timsmobile.283c1297faa43c43b201.jpg",
-    "static/media/art.png": "/portfolio-23/static/media/art.02c71edce06933118834.png",
-    "index.html": "/portfolio-23/index.html",
-    "main.578af90b.css.map": "/portfolio-23/static/css/main.578af90b.css.map",
-    "main.cf3c36f8.js.map": "/portfolio-23/static/js/main.cf3c36f8.js.map",
-    "787.d26f836c.chunk.js.map": "/portfolio-23/static/js/787.d26f836c.chunk.js.map"
+    "main.css": "/Portfolio-23/static/css/main.332d49e5.css",
+    "main.js": "/Portfolio-23/static/js/main.747a4fb9.js",
+    "static/js/787.d26f836c.chunk.js": "/Portfolio-23/static/js/787.d26f836c.chunk.js",
+    "static/media/afterparty.png": "/Portfolio-23/static/media/afterparty.91195ec8e2c66296aad3.png",
+    "static/media/karate.png": "/Portfolio-23/static/media/karate.c7dfa2b30c1d83c3ceec.png",
+    "static/media/wordle.png": "/Portfolio-23/static/media/wordle.148e0a516d39d11ba602.png",
+    "static/media/movies.png": "/Portfolio-23/static/media/movies.7ca53c6b395966b052ae.png",
+    "static/media/self-trim.png": "/Portfolio-23/static/media/self-trim.c91db4bf74e5e34b39bf.png",
+    "static/media/timsmobile.jpg": "/Portfolio-23/static/media/timsmobile.283c1297faa43c43b201.jpg",
+    "static/media/art.png": "/Portfolio-23/static/media/art.02c71edce06933118834.png",
+    "index.html": "/Portfolio-23/index.html",
+    "main.332d49e5.css.map": "/Portfolio-23/static/css/main.332d49e5.css.map",
+    "main.747a4fb9.js.map": "/Portfolio-23/static/js/main.747a4fb9.js.map",
+    "787.d26f836c.chunk.js.map": "/Portfolio-23/static/js/787.d26f836c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.578af90b.css",
-    "static/js/main.cf3c36f8.js"
+    "static/css/main.332d49e5.css",
+    "static/js/main.747a4fb9.js"
   ]
 }
