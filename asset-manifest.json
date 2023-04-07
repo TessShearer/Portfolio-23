@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-23/static/css/main.8ff5b6ca.css",
-    "main.js": "/Portfolio-23/static/js/main.f7025b8a.js",
+    "main.css": "/Portfolio-23/static/css/main.0b65a502.css",
+    "main.js": "/Portfolio-23/static/js/main.7bf0a635.js",
     "static/js/787.d26f836c.chunk.js": "/Portfolio-23/static/js/787.d26f836c.chunk.js",
     "static/media/afterparty.png": "/Portfolio-23/static/media/afterparty.91195ec8e2c66296aad3.png",
     "static/media/karate.png": "/Portfolio-23/static/media/karate.c7dfa2b30c1d83c3ceec.png",
@@ -11,12 +11,12 @@
     "static/media/timsmobile.jpg": "/Portfolio-23/static/media/timsmobile.283c1297faa43c43b201.jpg",
     "static/media/art.png": "/Portfolio-23/static/media/art.02c71edce06933118834.png",
     "index.html": "/Portfolio-23/index.html",
-    "main.8ff5b6ca.css.map": "/Portfolio-23/static/css/main.8ff5b6ca.css.map",
-    "main.f7025b8a.js.map": "/Portfolio-23/static/js/main.f7025b8a.js.map",
+    "main.0b65a502.css.map": "/Portfolio-23/static/css/main.0b65a502.css.map",
+    "main.7bf0a635.js.map": "/Portfolio-23/static/js/main.7bf0a635.js.map",
     "787.d26f836c.chunk.js.map": "/Portfolio-23/static/js/787.d26f836c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ff5b6ca.css",
-    "static/js/main.f7025b8a.js"
+    "static/css/main.0b65a502.css",
+    "static/js/main.7bf0a635.js"
   ]
 }
