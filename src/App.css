@@ -6,7 +6,6 @@
   min-height: 700px;
   margin: 20px;
   padding: 25px;
-
 }
 
 #scroll {
@@ -42,6 +41,19 @@
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
+  height: 60px;
+}
+
+#navreplace {
+  height: 170px;
+}
+
+.here {
+  display:block;
+}
+
+.nothere {
+  display:none;
 }
 
 #navbar div a {
@@ -141,14 +153,7 @@
   background-image: url('./assets/timsmobile.jpg');
 }
 
-#portfolio {
-  font-size: 75px;
-}
-
 /* Skills */
-#skills {
-  font-size: 75px;
-}
 
 .skill-list {
   margin: 50px;
@@ -156,13 +161,14 @@
 }
 
 /* Contact */
-#contact {
-  font-size: 75px;
-}
 
 .contact-links {
   padding: 25px;
   font-size: 25px;
+}
+
+.contact-tiny {
+  display: none;
 }
 
 #button-container {
@@ -181,6 +187,10 @@
 }
 
 /* Everything */
+.heading {
+  font-size: 75px;
+}
+
 .spacing {
   padding: 50px;
 }
@@ -203,18 +213,18 @@ body {
 }
 
 @media only screen and (max-width: 1350px) {
-.app-link {
-  height: 250px;
-  width: 400px;
-}
+  .app-link {
+    height: 250px;
+    width: 400px;
+  }
 
-.app-title {
-  width: 400px;
-}
+  .app-title {
+    width: 400px;
+  }
 
-.app-des {
-  width: 400px;
-}
+  .app-des {
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -222,27 +232,91 @@ body {
     height: 200px;
     width: 300px;
   }
-  
+
   .app-title {
     width: 300px;
   }
-  
+
   .app-des {
     width: 300px;
   }
+}
+
+@media only screen and (max-width: 750px) {
+  .app-link {
+    height: 125px;
+    width: 200px;
   }
 
-  @media only screen and (max-width: 750px) {
-    .app-link {
-      height: 125px;
-      width: 200px;
-    }
-    
-    .app-title {
-      width: 200px;
-    }
-    
-    .app-des {
-      width: 200px;
-    }
-    }
+  .app-title {
+    width: 200px;
+  }
+
+  .app-des {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #introduction {
+    max-width: 100%;
+    font-size: 70px;
+    min-height: 100px;
+  }
+
+  #aboutme {
+    font-size: 20px;
+    min-height: 100px;
+    margin: 5px 5px 0 5px;
+    padding: 10px 0;
+  }
+
+  #self {
+    height: 300px;
+    width: 300px;
+  }
+
+  .spacing {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 60px;
+  }
+
+  .skill-list {
+    font-size: 20px;
+    margin: 5px 5px 0 5px;
+    padding: 10px 0;
+  }
+
+  .app-link {
+    height: 75px;
+    width: 120px;
+  }
+
+  .app-title {
+    width: 120px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .app-des {
+    width: 120px;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+
+  .contact-links {
+    display: none;
+  }
+
+  .contact-tiny {
+    display: block;
+  }
+
+  #icons {
+    font-size: 10px;
+  }
+
+}

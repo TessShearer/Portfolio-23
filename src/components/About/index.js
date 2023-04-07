@@ -7,6 +7,7 @@ function About() {
       <div className="spacing"></div>
 
       <div>
+      <h1 className="text-center heading" id="about">About Me</h1>
         <div className="row">
           <div className="col-2"></div>
           <div className="col-8">

@@ -6,7 +6,7 @@ function Portfolio() {
     <section>
 
       <div className="spacing"></div>
-      <h1 className="text-center" id="portfolio">Portfolio</h1>
+      <h1 className="text-center heading" id="portfolio">Portfolio</h1>
 
       <div className="row text-center">
         <div className="col-1"></div>

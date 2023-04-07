@@ -6,7 +6,7 @@ function Skills() {
     <section>
       <div className="spacing"></div>
 
-      <h1 className="text-center" id="skills">Skills</h1>
+      <h1 className="text-center heading" id="skills">Skills</h1>
       <div className="row">
         <div className="col-2"></div>
         <div className="col-8">

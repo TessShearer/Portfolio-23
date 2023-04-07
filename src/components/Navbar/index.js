@@ -5,13 +5,18 @@ function Navbar(props) {
   useEffect(() => {
     function makeStick() {
       const navbar = document.getElementById("navbar");
+      const navreplace = document.getElementById("navreplace");
       const sticky = navbar.offsetTop;
       if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky");
         navbar.classList.remove("notsticky");
+        navreplace.classList.add("here");
+        navreplace.classList.remove("nothere");
       } else {
         navbar.classList.add("notsticky");
         navbar.classList.remove("sticky");
+        navreplace.classList.add("nothere");
+        navreplace.classList.remove("here");
       }
     }
 
@@ -24,6 +29,7 @@ function Navbar(props) {
 
   return (
     <section>
+      <div id="navreplace" class="nothere"></div>
       <div className="text-center notsticky" id="navbar">
         <div className="d-flex justify-content-around">
           <a href="#About">About</a>

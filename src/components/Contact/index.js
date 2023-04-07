@@ -6,26 +6,26 @@ function Contact() {
     // const handleSubmit = (event) => {
     //     event.preventDefault();
     //     console.log("submit clicked");
-      
-        // axios.post('/contact', {
-        //   name: name,
-        //   email: email,
-        //   message: message
-        // })
-        // .then(response => {
-        //   console.log(response.data);
-        //   setSent(true);
-        // })
-        // .catch(error => {
-        //   console.log(error);
-        // });
+
+    // axios.post('/contact', {
+    //   name: name,
+    //   email: email,
+    //   message: message
+    // })
+    // .then(response => {
+    //   console.log(response.data);
+    //   setSent(true);
+    // })
+    // .catch(error => {
+    //   console.log(error);
+    // });
     //   }
 
     return (
         <section>
 
             <div className="spacing"></div>
-            <h1 className="text-center" id="contact">Contact Me</h1>
+            <h1 className="text-center heading" id="contact">Contact Me</h1>
 
             <div className="row text-center contact-links">
                 <div className="col"></div>
@@ -39,6 +39,30 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/tess-shearer-a343b2232/" target="_blank" rel="noreferrer">LinkedIn</a>
                 </div>
                 <div className="col"></div>
+            </div>
+
+            <div className="text-center contact-tiny">
+                <div className="row">
+                    <div className="col-2"></div>
+                    <div className="col-8">
+                        801-310-9809
+                    </div>
+                    <div className="col-2"></div>
+                </div>
+                <div className="row">
+                    <div className="col-2"></div>
+                    <div className="col-8">
+                    shearer.tess@gmail.com
+                    </div>
+                    <div className="col-2"></div>
+                </div>
+                <div className="row">
+                    <div className="col-2"></div>
+                    <div className="col-8">
+                    <a href="https://www.linkedin.com/in/tess-shearer-a343b2232/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    </div>
+                    <div className="col-2"></div>
+                </div>
             </div>
 
             {/* <form className="row text-center" id="contact-form" onSubmit={handleSubmit}>
