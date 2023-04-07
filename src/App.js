@@ -19,7 +19,9 @@ function App() {
   return (
     <div>
       <main>
+        <section id="Intro">
         <Intro></Intro>
+        </section>
         <Navbar></Navbar>
         <section id="About" ref={AboutRef}>
         <About></About>

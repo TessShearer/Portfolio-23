@@ -6,6 +6,7 @@
   min-height: 700px;
   margin: 20px;
   padding: 25px;
+  max-width: 100%;
 }
 
 #scroll {
@@ -240,6 +241,10 @@ body {
   .app-des {
     width: 300px;
   }
+
+  #introduction {
+    font-size: 150px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -254,6 +259,26 @@ body {
 
   .app-des {
     width: 200px;
+  }
+
+  #introduction {
+    font-size: 115px;
+  }
+
+  #andint {
+    display: none;
+  }
+
+  .contact-links {
+    display: none;
+  }
+
+  .contact-tiny {
+    display: block;
+  }
+
+  #icons {
+    font-size: 10px;
   }
 }
 
