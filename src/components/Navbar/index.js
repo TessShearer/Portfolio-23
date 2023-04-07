@@ -7,7 +7,8 @@ function Navbar(props) {
       const navbar = document.getElementById("navbar");
       const navreplace = document.getElementById("navreplace");
       const sticky = navbar.offsetTop;
-      if (window.pageYOffset > sticky) {
+      const replace = navreplace.offsetTop;
+      if (window.pageYOffset > sticky && window.pageYOffset > replace) {
         navbar.classList.add("sticky");
         navbar.classList.remove("notsticky");
         navreplace.classList.add("here");
