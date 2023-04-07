@@ -5,6 +5,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   const PortfolioRef = useRef(null);
   const AboutRef = useRef(null);
   const ContactRef = useRef(null);
+  const ResumeRef = useRef(null);
 
   return (
     <div>
@@ -28,7 +30,10 @@ function App() {
         <section id="Portfolio" ref={PortfolioRef}>
         <Portfolio></Portfolio>
         </section>
-        <section id="Contact" ref={ContactRef}>
+        <section id="Resume" ref={ResumeRef}>
+        <Resume></Resume>
+        </section>
+        <section id="Resume" ref={ContactRef}>
         <Contact></Contact>
         </section>
         <section id="icons">

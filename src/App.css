@@ -319,4 +319,12 @@ body {
     font-size: 10px;
   }
 
+  #andint {
+    display: none;
+  }
+
+  #navbar div a {
+    font-size: 20px;
+  }
+
 }
