@@ -25,7 +25,7 @@ function Resume() {
                     <div className="col-8">
                         <h2>Co-Owner</h2>
                         <h3>Cory's Karate, LLC
-                        Jan 2020 - Present (3 yrs)</h3>
+                        Jan 2020 - Dec 2022 (3 yrs)</h3>
                         I co-own a karate school with approximately 40 students in Springville, Utah. The school offers classes 2-3 days a week and I oversee multiple talented instructors teaching classes. I also modify the website and update the calendar.
                     </div>
                     <div className="col-2"></div>

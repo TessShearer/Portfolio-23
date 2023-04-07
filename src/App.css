@@ -257,10 +257,11 @@ body {
   }
 }
 
+/* FOR MOBILE DEVICES */
 @media only screen and (max-width: 400px) {
   #introduction {
     max-width: 100%;
-    font-size: 70px;
+    font-size: 65px;
     min-height: 100px;
   }
 
@@ -325,6 +326,10 @@ body {
 
   #navbar div a {
     font-size: 20px;
+  }
+
+  #navbar{
+    width: 103%;
   }
 
 }
