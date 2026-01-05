@@ -34,9 +34,10 @@ function Navbar(props) {
       <div className="text-center notsticky" id="navbar">
         <div className="d-flex justify-content-around">
           <a href="#About">About</a>
-          <a href="#Skills">Skills<span id="andint"> and Interests</span></a>
+          <a href="#Skills">Skills</a>
           <a href="#Portfolio">Portfolio</a>
           <a href="#Resume">Resume</a>
+          <a href="#Education">Education</a>
           <a href="#Contact">Contact</a>
         </div>
       </div>
